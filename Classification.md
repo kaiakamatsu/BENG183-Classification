@@ -41,7 +41,19 @@ It is important to plot the validation curve in order to determine the optimal v
 
 ![k nearest neighbors visualization](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cc3fc86-5e8f-4e73-b4ad-ae0061b10c2b_800x585.gif)
 
-## Which algorithm should be used? 
+## Neural networks
+Supervised learning with neural networks is like training a talented apprentice. Imagine teaching a skilled apprentice artisan the art of pottery. You provide examples of various pottery shapes (input data) and explain the desired shapes (labels or outputs). The apprentice (neural network) learns by observing these examples and adjusting their techniques (weights and biases) to replicate the desired pottery shapes (predictions) when creating new pottery pieces (unseen data). Over time, with continuous practice and guidance (training iterations), the apprentice becomes adept at crafting pottery that closely resembles the desired shapes, demonstrating the ability to generalize and create new pieces (make predictions) based on the learned patterns from your teachings (training data).
+
+Prepare the data and preprocess. 
+Choose a type of neural network that suits your needs (i.e. convolutional neural network) 
+Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? 
+ Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) 
+The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. 
+Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
+Have proper measure to prevent overfitting 
+Once the  model is ready, introduce new unknown data and runs it through the model
+
+![visualization of neural network classification](https://editor.analyticsvidhya.com/uploads/999181_BIpRgx5FsEMhr1k2EqBKFg.gif)
 
 # K-Nearest Neighbors Classification 
 
