@@ -59,7 +59,7 @@ A neural network is like a team learning to identify fruits. Each member special
 5 The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
 6 Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
 Have proper measure to prevent overfitting <br>
-**Example:**  
+[**Example from TensorFlow:**](https://www.tensorflow.org/tutorials/images/cnn)  
 ```
 model.compile(optimizer='adam',
               loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
@@ -77,7 +77,7 @@ history = model.fit(train_images, train_labels, epochs=10,
 
 
 From: <br>
-[Convolutional Neural Networks](https://www.analyticsvidhya.com/blog/2021/07/convolution-neural-network-the-base-for-many-deep-learning-algorithms-cnn-illustrated-by-1-d-ecg-signal-physionet/), [Adam](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/#:~:text=In%20summary%2C%20Adam%20optimizer%20is,weights%20during%20deep%20learning%20training), [Cross Entropy Loss](https://www.v7labs.com/blog/cross-entropy-loss-guide#:~:text=Cross%2Dentropy%20loss%2C%20or%20log,diverges%20from%20the%20actual%20label), [Types of Neural Networks](https://www.mygreatlearning.com/blog/types-of-neural-networks/), [TensorFlow example](https://www.tensorflow.org/tutorials/images/cnn)
+[Convolutional Neural Networks](https://www.analyticsvidhya.com/blog/2021/07/convolution-neural-network-the-base-for-many-deep-learning-algorithms-cnn-illustrated-by-1-d-ecg-signal-physionet/), [Adam](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/#:~:text=In%20summary%2C%20Adam%20optimizer%20is,weights%20during%20deep%20learning%20training), [Cross Entropy Loss](https://www.v7labs.com/blog/cross-entropy-loss-guide#:~:text=Cross%2Dentropy%20loss%2C%20or%20log,diverges%20from%20the%20actual%20label), [Types of Neural Networks](https://www.mygreatlearning.com/blog/types-of-neural-networks/), [TensorFlow Example](https://www.tensorflow.org/tutorials/images/cnn)
 
 ## Support Vector Machines
 Support Vector Machines (SVMs) are similar to a wise judge creating a clear boundary in a courtroom. Picture a judge presiding over a complex case with two sides presenting different arguments. The judge (SVM) seeks a fair and decisive line (decision boundary) that separates the two stances, ensuring a just verdict. Just as the judge carefully weighs evidence and arguments to establish a balanced judgment, SVMs analyze data to create an optimal boundary that maximizes the margin between classes, ensuring a clear distinction between different data groups, much like the judge's ruling brings clarity to a legal dispute.<br>
