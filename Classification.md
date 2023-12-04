@@ -232,6 +232,15 @@ Classification algorithms can also improve disease monitoring by categorizing th
 Notably, they implemented k-nearest neighbors, random forest, support vector machine, and logistic regression models to perform this classification task. **Figure F** above shows that the logistic regression model outperforms other models by achieving a **90%** accuracy. **Figure A** displays that the k-nearest neighbors algorithm performed best with k = 1-5. Analyzing the importance of every feature in the random forest model, as shown in **figure B** shows that Albumin, Bilirubin, and Protime levels (all proteins or compound found in the liver) are the most important features in predicting the survival outcome of hepatitis patients. Indeed, plotting the data as a scatter plot with these three measurements on the axis (**figure C**) show that these features separate the two categories of patients in 3-dimensional space. Lastly, **figure D** shows the decision surface used by the logistic regression model, reflecting it's effectiveness in separating patients in the two survival outcomes. 
 
 ## Functional Genomics 
+Although classification tasks are not as common in functional genomics, there are certainly some powerful applications of classification algorithms for genomic annotation. 
 
+[Amariuta et al. 2019, *AJHG*] created a regularized logistic regression model (elastic net) to predict transcription factor ocupancy at binding motifs based on local epigenomic features. 
+
+<div align="center">
+<img src="https://www.cell.com/cms/attachment/e0c186ae-012f-4ba2-bf39-75fdfa52b956/gr1.jpg" 
+  width="400 height="250">
+</div>
+
+Here, ChIP-seq data is used as the cellular truth to train the logistic regression model. Hundreds of local epigenetic features, including open chromatin and H3K4me1, are used as variables in the machine learning model to predict the probability of TF occupancy at nuceotide resolution. This models achieves a average AUPRC higher than state-of-the-art approaches to predict TF binding. Integration with genome-wide association study (GWAS) data shows that regulatory elements identified by IMPACT explains a large portion of the heritability of complex diseases such as rheumatoid arthritis. 
 
 # Conclusion 
