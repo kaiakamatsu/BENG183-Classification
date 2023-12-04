@@ -29,7 +29,7 @@
 # What are the types of Classification algorithms? 
 ## k-Nearest neighbor 
 The k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for advice. Imagine you're trying to figure out what type of an unknown vegetable is in your basket. You look at the labeled vegetables your neighbors have, compare them, and decide based on the most similar ones.
-<br>
+  
 **STEPS**<br>
 1 Prepare the data containing various data points with known classes or labels <br>
 2 This is considered the training process<br>
@@ -38,7 +38,7 @@ The k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for a
 5 These k neighbors will be considered most similar to the data point, where we can classify.<br>
 **Note:** It is important to plot the validation curve in order to determine the optimal value for k.<br>
 <br>
-
+  
 ![k nearest neighbors visualization](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cc3fc86-5e8f-4e73-b4ad-ae0061b10c2b_800x585.gif)
 
 From:<br>
