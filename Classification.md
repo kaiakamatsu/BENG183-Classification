@@ -90,11 +90,13 @@ As stated before, the k-Nearest Neighbor (k-NN) method is like asking your close
 ## Walk-through/Implementation 
 ### Training  
 The training process of the KNN classification algorithm is fairly straightfoward. The algorithm stores the entire data set to memory while keeping track of distances (for example Euclidean Distance).  
-**Euclidean distance formula:**  
+**Euclidean Distance Formula:**  
 <div align="center">
-<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5" width="400" height="300">
-</div>  
- 
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*9LeaMTcOXxeTPN-VCbKloQ.png" width="200" height="100">
+</div>
+
+**Manhattan Distance Formula:**
+
 It is essential to have different colors for labels in order to be able to differentiate.  
 ### Importance of variable "k"
 <div align="center">
