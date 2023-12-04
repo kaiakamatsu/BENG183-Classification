@@ -73,6 +73,7 @@ Set up the SVM model (i.e. Scikit-learn)
 Train the data using the .fit method 
 ```
 svm_cv.fit(X_train,y_train)
+```
 Assess the performance using accuracy, recall, etc as flags 
 Adjust hyper parameters if unsatisfactory 
 Once the  model is ready, introduce new unknown data and runs it through the model
