@@ -61,7 +61,7 @@ Have proper measure to prevent overfitting <br>
 
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/5aa1041e-064a-4dc7-abf9-517f436ed85b" width="700"
- height="550">
+ height="500">
 </div>
 
 
