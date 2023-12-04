@@ -53,20 +53,20 @@ From:<br>
 Supervised learning with neural networks is like training a talented apprentice. Imagine teaching a skilled apprentice artisan the art of pottery. You provide examples of various pottery shapes (input data) and explain the desired shapes (labels or outputs). The apprentice (neural network) learns by observing these examples and adjusting their techniques (weights and biases) to replicate the desired pottery shapes (predictions) when creating new pottery pieces (unseen data). Over time, with continuous practice and guidance (training iterations), the apprentice becomes adept at crafting pottery that closely resembles the desired shapes, demonstrating the ability to generalize and create new pieces (make predictions) based on the learned patterns from your teachings (training data).
 **STEPS**
 <br>
-1) Prepare the data and preprocess. <br>
+1 Prepare the data and preprocess. <br>
 <br>
-2) Choose a type of neural network that suits your needs (i.e. convolutional neural network) <br>
+2 Choose a type of neural network that suits your needs (i.e. convolutional neural network) <br>
 <br>
-3) Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? <br>
+3 Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? <br>
 <br>
-4) Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) <br>
+4 Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) <br>
 <br>
-5) The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
+5 The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
 <br>
-6) Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
+6 Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
 Have proper measure to prevent overfitting <br>
 <br>
-7) Once the  model is ready, introduce new unknown data and runs it through the model<br>
+7 Once the  model is ready, introduce new unknown data and runs it through the model<br>
 <br>
 
 ![999181_BIpRgx5FsEMhr1k2EqBKFg (1)](https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/5aa1041e-064a-4dc7-abf9-517f436ed85b)
@@ -78,22 +78,22 @@ From: <br>
 Support Vector Machines (SVMs) are similar to a wise judge creating a clear boundary in a courtroom. Picture a judge presiding over a complex case with two sides presenting different arguments. The judge (SVM) seeks a fair and decisive line (decision boundary) that separates the two stances, ensuring a just verdict. Just as the judge carefully weighs evidence and arguments to establish a balanced judgment, SVMs analyze data to create an optimal boundary that maximizes the margin between classes, ensuring a clear distinction between different data groups, much like the judge's ruling brings clarity to a legal dispute.
 
 **STEPS**<br>
-1)Prepare the data and preprocess <br>
+1 Prepare the data and preprocess <br>
 <br>
-2)Choose a kernel (i.e. linear, polynomial, sigmoid, Gaussian Radial Basis Function, etc). Choose the kernelbased on the type of data being used<br>
+2 Choose a kernel (i.e. linear, polynomial, sigmoid, Gaussian Radial Basis Function, etc). Choose the kernelbased on the type of data being used<br>
 <br>
-3)Tune the kernel hyper parameters (i.e. gamma RBF) <br>
+3 Tune the kernel hyper parameters (i.e. gamma RBF) <br>
 <br>
-4)Set up the SVM model (i.e. Scikit-learn) <br>
+4 Set up the SVM model (i.e. Scikit-learn) <br>
 <br>
-5)Train the data using the .fit method 
+5 Train the data using the .fit method 
 ```
 svm_cv.fit(X_train,y_train)
 ```
 <br>
-6)Assess the performance using accuracy, recall, etc as flags. Adjust hyper parameters if unsatisfactory <br>
+6 Assess the performance using accuracy, recall, etc as flags. Adjust hyper parameters if unsatisfactory <br>
 <br>
-7)Once the  model is ready, introduce new unknown data and runs it through the model<br>
+7 Once the  model is ready, introduce new unknown data and runs it through the model<br>
 <br>
 
 
