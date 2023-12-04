@@ -88,10 +88,10 @@ From:
 ## Intuition/Analogy
 As stated before, the k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for advice. Imagine you're trying to figure out what type of an unknown vegetable is in your basket. You look at the labeled vegetables your neighbors have, compare them, and decide based on the most similar ones.
 ## Walk-through/Implementation 
-###Training 
+### Training  
 The training process of the KNN classification algorithm is fairly straightfoward. The algorithm stores the entire data set to memory while keeping track of distances (for example Euclidean or Manhattan distance).  
 EUCLIDEAN DISTANCE
-![EUCLIDEAN DISTANCE](https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5)
+![EUCLIDEAN DISTANCE](https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5 =250x250)
 
 
 
