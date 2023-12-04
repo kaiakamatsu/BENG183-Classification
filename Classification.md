@@ -93,7 +93,7 @@ The training process of the KNN classification algorithm is fairly straightfowar
 EUCLIDEAN DISTANCE
 ![EUCLIDEAN DISTANCE](https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5 =250x250)
 
-<img src="[https://your-image-url.type](https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5)" width="300" height="300">
+<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5" width="100" height="100">
 
 ## Supplements
 1. How is distance defined?
