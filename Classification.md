@@ -53,7 +53,7 @@ Feed the training data into the model. Keep an eye on the optimizer in order to 
 Have proper measure to prevent overfitting 
 Once the  model is ready, introduce new unknown data and runs it through the model
 
-![visualization of neural network classification]([https://editor.analyticsvidhya.com/uploads/999181_BIpRgx5FsEMhr1k2EqBKFg.gif](https://editor.analyticsvidhya.com/uploads/999181_BIpRgx5FsEMhr1k2EqBKFg.gif))
+![visualization of neural network classification](https://editor.analyticsvidhya.com/uploads/999181_BIpRgx5FsEMhr1k2EqBKFg.gif)
 
 # K-Nearest Neighbors Classification 
 
