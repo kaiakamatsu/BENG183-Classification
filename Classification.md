@@ -116,7 +116,7 @@ In python we can calculate these using **numpy** or **scipy**
 
 **Manhattan Distance Formula:**
 <div align="center">
-<img src="https://www.kdnuggets.com/wp-content/uploads/c_distance_metrics_euclidean_manhattan_minkowski_oh_5.png" width="300" height="100">
+<img src="https://www.kdnuggets.com/wp-content/uploads/c_distance_metrics_euclidean_manhattan_minkowski_oh_5.png" width="280" height="80">
 </div>
 
 It is essential to have different colors for labels in order to be able to differentiate.  
