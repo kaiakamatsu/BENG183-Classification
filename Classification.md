@@ -102,14 +102,31 @@ The training process of the KNN classification algorithm is fairly straightfowar
 
 It is essential to have different colors for labels in order to be able to differentiate.  
 ### Importance of variable "k"
-<div align="center">
-<img src="https://www.analyticsvidhya.com/wp-content/uploads/2014/10/K-judgement.png" width="400"
- height="200">  
+
+It is important to choose the most optimal k-value as it will be essential for managing outliers/noise in the overall dataset. When k=1, the model makes predictions based solely on the closest neighbor to a data point. This can cause the model to capture noise or outliers, leading to overfitting because it's overly tailored to the training data. However, if the k value is too high, it can lead to oversimplification of the model and the creation of overly generalized boundaries.  
+Although there are various ways to compute the optimal k (i.e. square root k), the most accurate will be the k elbow curve method.
+```
+data = pd.read_csv(‘KNN_Project_Data) \\ read data
+
+error_rate = [] \\keep track of error rates through various k values 
+for i in range(1,40):
+ knn = KNeighborsClassifier(n_neighbors=i)
+ knn.fit(X_train,y_train)
+ pred_i = knn.predict(X_test)
+ error_rate.append(np.mean(pred_i != y_test))
+
+plt.figure(figsize=(10,6)) //plot example 
+ // ... include color implementations, etc. 
+plt.title(‘Error Rate vs. K Value’)
+plt.xlabel(‘K’)
+plt.ylabel(‘Error Rate’)
+```
+By keeping track of the error rates and the k values, we will be looking at which k value has the lowest error rate. By doing so we can prevent over/under fitting.  
+For example:  
+<img src="https://miro.medium.com/v2/resize:fit:1316/format:webp/1*DevIKIpXaJm7xkodmcefQg.png" width="400
+ height="250">
 </div>
-<div align="center">
- <img src="https://www.analyticsvidhya.com/wp-content/uploads/2014/10/K-judgement2.png" width="400"
- height="200">  
-</div>
+
 ### Introduction of a New Data Point  
 
 <div align="center">
