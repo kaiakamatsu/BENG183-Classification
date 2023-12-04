@@ -92,9 +92,9 @@ As stated before, the k-Nearest Neighbor (k-NN) method is like asking your close
 The training process of the KNN classification algorithm is fairly straightfoward. The algorithm stores the entire data set to memory while keeping track of distances (for example Euclidean or Manhattan distance).  
 EUCLIDEAN DISTANCE
 ![EUCLIDEAN DISTANCE](https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5 =250x250)
-
-<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5" width="100" height="100">
-
+<div align="center">
+<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5" width="500" height="500">
+</div>
 ## Supplements
 1. How is distance defined?
 2. How does K affect classification?
