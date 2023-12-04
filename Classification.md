@@ -62,6 +62,22 @@ Once the  model is ready, introduce new unknown data and runs it through the mod
 From: <br>
 [Convolutional Neural Networks](https://www.analyticsvidhya.com/blog/2021/07/convolution-neural-network-the-base-for-many-deep-learning-algorithms-cnn-illustrated-by-1-d-ecg-signal-physionet/), [Adam](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/#:~:text=In%20summary%2C%20Adam%20optimizer%20is,weights%20during%20deep%20learning%20training), [Cross Entropy Loss](https://www.v7labs.com/blog/cross-entropy-loss-guide#:~:text=Cross%2Dentropy%20loss%2C%20or%20log,diverges%20from%20the%20actual%20label), [Types of Neural Networks](https://www.mygreatlearning.com/blog/types-of-neural-networks/)
 
+##Support Vector Machines
+Support Vector Machines (SVMs) are similar to a wise judge creating a clear boundary in a courtroom. Picture a judge presiding over a complex case with two sides presenting different arguments. The judge (SVM) seeks a fair and decisive line (decision boundary) that separates the two stances, ensuring a just verdict. Just as the judge carefully weighs evidence and arguments to establish a balanced judgment, SVMs analyze data to create an optimal boundary that maximizes the margin between classes, ensuring a clear distinction between different data groups, much like the judge's ruling brings clarity to a legal dispute.
+
+Prepare the data and preprocess 
+Choose a kernel (i.e. linear, polynomial, sigmoid, Gaussian Radial Basis Function, etc) 
+Choose based on the type of data being used
+Tune the kernel hyper parameters (i.e. gamma RBF) 
+Set up the SVM model (i.e. Scikit-learn) 
+Train the data using the .fit method 
+```
+svm_cv.fit(X_train,y_train)
+Assess the performance using accuracy, recall, etc as flags 
+Adjust hyper parameters if unsatisfactory 
+Once the  model is ready, introduce new unknown data and runs it through the model
+
+
 # K-Nearest Neighbors Classification 
 
 ## Intuition/Analogy
