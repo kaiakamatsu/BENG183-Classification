@@ -71,8 +71,8 @@ history = model.fit(train_images, train_labels, epochs=10,
 7. Once the  model is ready, introduce new unknown data and runs it through the model<br>
 
 <div align="center">
-<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/5aa1041e-064a-4dc7-abf9-517f436ed85b" width="800"
- height="500">
+<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/5aa1041e-064a-4dc7-abf9-517f436ed85b" width="600"
+ height="300">
 </div>
 
 
