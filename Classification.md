@@ -90,6 +90,7 @@ As stated before, the k-Nearest Neighbor (k-NN) method is like asking your close
 ## Walk-through/Implementation 
 ### Training  
 The training process of the KNN classification algorithm is fairly straightfoward. The algorithm stores the entire data set to memory while keeping track of distances (for example Euclidean Distance).  
+In python we can calculate these using **numpy** or **scipy**
 **Euclidean Distance Formula:**  
 <div align="center">
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*9LeaMTcOXxeTPN-VCbKloQ.png" width="300" height="100">
@@ -148,7 +149,8 @@ Then we can sort the calculated distances in ascending order based on distance v
 
 ## Supplements
 1. How is distance defined?
-2. How does K affect classification?
+   The distance between points u and v. We can use various distance metrics as shown above. 
+3. How does K affect classification?
 ## Limitations
 
 # Support Vector Machine 
