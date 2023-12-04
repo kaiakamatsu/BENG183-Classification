@@ -97,7 +97,7 @@ The training process of the KNN classification algorithm is fairly straightfowar
 
 **Manhattan Distance Formula:**
 <div align="center">
-<img src="https://www.kdnuggets.com/wp-content/uploads/c_distance_metrics_euclidean_manhattan_minkowski_oh_5.png" width="250" height="50">
+<img src="https://www.kdnuggets.com/wp-content/uploads/c_distance_metrics_euclidean_manhattan_minkowski_oh_5.png" width="300" height="100">
 </div>
 
 It is essential to have different colors for labels in order to be able to differentiate.  
