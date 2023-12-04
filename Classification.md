@@ -188,10 +188,34 @@ Here, we will discuss three key applications of classification to biomedical sci
 Classification algorithms can assist in early detection and disease diagnosis. These machine learning tools have the potential to accelerate decision-making of disease diagnosis by automating visual examinations by physicians, perhaps to flag abnormalities. Expediting this process while maintaining accuracy can enable early detection of conditions such as skin cancer, in which early diagnosis improves prognosis for survival tremendously.  
 From: [ML and Medical Diagnosis](https://kili-technology.com/data-labeling/machine-learning/machine-learning-and-medical-diagnosis-an-introduction-to-how-ai-improves-disease-detection)
 
+### Classifying tumors
 For example, classification algorithms can be applied to distinguish between **Benign** and **Malignant** tumors. 
+
 <div align="center">
 <img src="https://www.verywellhealth.com/thmb/LoHuaSfq_qbKGtSNk3yWBeS0f7s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/514240-article-img-malignant-vs-benign-tumor2111891f-54cc-47aa-8967-4cd5411fdb2f-5a2848f122fa3a0037c544be.png" 
   width="400 height="250">
 </div>
+
+Let's explore a scenario in which a healthcare provider wants to classify a tumor based on an image. Based on several visual features of the tumor images, can we accurately catergorize the tumor as benign or malignant? 
+
+[Khairunnahar et al. 2019, *Informatics in Medicine Unlocked*](https://www.sciencedirect.com/science/article/pii/S2352914818301497#sec1) explores this question by implementing a logistic regression model for tumor classificaiton. They utilize a labeled breast cancer diagnosis [dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) with the following features: Radius, Texture, Perimeter, Area, Smoothness, Compactness, Concavity, Concave points, Symmetry and Fractal dimension. In their analysis, they create a logistic regression model that can predict tumor malignancy with **97.4249% accuracy**. See ROC curve below: 
+
+<div align="center">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2352914818301497-gr5_lrg.jpg" 
+  width="400 height="250">
+</div>
+
+Next, let's explore a scenario in which a bioinformatician wants to classify a tumor based on the cell's gene expression profiles. The phenotypes of various cells are governed by their gene expression patterns. These unique gene expression profiles can be leveraged to classify cell samples into malignant or benign categories. 
+
+[Divate et al. 2022, *cancers*](https://www.mdpi.com/2072-6694/14/5/1185) leverages a deep neural network to distinguish between 37 cancer types for a total of 2848 samples. 
+
+<div align="center">
+<img src="https://www.mdpi.com/cancers/cancers-14-01185/article_deploy/html/images/cancers-14-01185-g002.png" 
+  width="400 height="250">
+</div>
+
+In this model, they utilize gene expression values for 13,250 genes as input data to a neural network. Their model achieves a **97.33%** overall accuracy on their testing data. Interestingly, they interpret the layers of their model to identify several gene signatures that can be used as biomarkers for determining the cancer's tissue of origin. 
+
+## Disease Monitoring 
 
 # Conclusion 
