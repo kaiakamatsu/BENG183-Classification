@@ -51,13 +51,13 @@ From:<br>
 A neural network is like a team learning to identify fruits. Each member specializes in recognizing specific fruit traits (color, shape, texture) just as neural network layers focus on different aspects. They share insights like how neurons exchange information. Training involves showing labeled fruit examples, improving their ability to identify fruits. Testing checks their proficiency. The team gets better with more fruit exposure, similar to how neural networks improve with more data.<br>
   
 **STEPS**<br>
-1 Prepare the data and preprocess. <br>
-2 Choose a type of neural network that suits your needs (i.e. convolutional neural network)  
+1. Prepare the data and preprocess. <br>
+2. Choose a type of neural network that suits your needs (i.e. convolutional neural network)  
       Use TensorFlow  
-3 Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? <br>
-4 Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) <br>
-5 The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
-6 Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
+3. Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? <br>
+4. Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) <br>
+5. The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
+6. Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
 Have proper measure to prevent overfitting <br>
 [**Example from TensorFlow:**](https://www.tensorflow.org/tutorials/images/cnn)  
 ```
@@ -68,7 +68,7 @@ model.compile(optimizer='adam',
 history = model.fit(train_images, train_labels, epochs=10, 
                     validation_data=(test_images, test_labels))
 ```  
-7 Once the  model is ready, introduce new unknown data and runs it through the model<br>
+7. Once the  model is ready, introduce new unknown data and runs it through the model<br>
 
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/5aa1041e-064a-4dc7-abf9-517f436ed85b" width="800"
