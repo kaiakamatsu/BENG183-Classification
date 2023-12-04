@@ -64,7 +64,7 @@ From:
 
 [Cross Entropy Loss](https://www.v7labs.com/blog/cross-entropy-loss-guide#:~:text=Cross%2Dentropy%20loss%2C%20or%20log,diverges%20from%20the%20actual%20label)
 
-[Types of Neural Networks] (https://www.mygreatlearning.com/blog/types-of-neural-networks/)
+[Types of Neural Networks](https://www.mygreatlearning.com/blog/types-of-neural-networks/)
 
 # K-Nearest Neighbors Classification 
 
