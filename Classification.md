@@ -107,6 +107,12 @@ It is essential to have different colors for labels in order to be able to diffe
 It is important to choose the most optimal k-value as it will be essential for managing outliers/noise in the overall dataset. When k=1, the model makes predictions based solely on the closest neighbor to a data point. This can cause the model to capture noise or outliers, leading to overfitting because it's overly tailored to the training data. However, if the k value is too high, it can lead to oversimplification of the model and the creation of overly generalized boundaries.  
 Although there are various ways to compute the optimal k (i.e. square root k), the most accurate will be the k elbow curve method.
 ```
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+import matplotlib.pyplot as plt
+
 data = pd.read_csv(‘KNN_Project_Data) \\ read data
 
 error_rate = [] \\keep track of error rates through various k values 
