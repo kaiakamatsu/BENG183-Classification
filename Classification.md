@@ -237,8 +237,9 @@ Although classification tasks are not as common in functional genomics, there ar
 [Amariuta et al. 2019, *AJHG*] created a regularized logistic regression model (elastic net) to predict transcription factor ocupancy at binding motifs based on local epigenomic features. 
 
 <div align="center">
-<img src="https://www.cell.com/cms/attachment/e0c186ae-012f-4ba2-bf39-75fdfa52b956/gr1.jpg" 
+<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/108591793/3ff4cee9-0d24-4dbc-bdb1-4c9fa3c0fb55" 
   width="400 height="250">
+
 </div>
 
 Here, ChIP-seq data is used as the cellular truth to train the logistic regression model. Hundreds of local epigenetic features, including open chromatin and H3K4me1, are used as variables in the machine learning model to predict the probability of TF occupancy at nuceotide resolution. This models achieves a average AUPRC higher than state-of-the-art approaches to predict TF binding. Integration with genome-wide association study (GWAS) data shows that regulatory elements identified by IMPACT explains a large portion of the heritability of complex diseases such as rheumatoid arthritis. 
