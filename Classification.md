@@ -128,7 +128,10 @@ For example:
 <img src="https://miro.medium.com/v2/resize:fit:1316/format:webp/1*DevIKIpXaJm7xkodmcefQg.png" width="400
  height="250">
 </div>
-
+  
+The optimal k value will be 20 as it has the lowest error rate.   
+[Elbow Method](https://medium.com/@moussadoumbia_90919/elbow-method-in-supervised-learning-optimal-k-value-99d425f229e7)
+  
 ### Introduction of a New Data Point  
 
 <div align="center">
