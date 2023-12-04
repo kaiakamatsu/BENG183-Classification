@@ -101,7 +101,7 @@ The training process of the KNN classification algorithm is fairly straightfowar
 In python we can calculate these using **numpy** or **scipy**  
 **Euclidean Distance Formula:**  
 <div align="center">
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*9LeaMTcOXxeTPN-VCbKloQ.png" width="300" height="100">
+<img src="https://www.kdnuggets.com/wp-content/uploads/c_distance_metrics_euclidean_manhattan_minkowski_oh_3.png" width="300" height="100">
 </div>
 
 **Manhattan Distance Formula:**
