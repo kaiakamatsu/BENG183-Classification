@@ -173,8 +173,22 @@ These limitations highlight the need for careful consideration and preprocessing
 1. Kernels 
 ## Limitations
 
-# Biological Applications 
+# Biomedical Applications 
 
-## Types
+Machine learning is transforming biomedical sciences. Novel technologies are producing biological/medical datasets of unprecedented scale and resolution. As bioinformaticians, our role is to leverage this data to yield insights into complex biological systems and/or improve diagnosis and treatment.  
+Here, we will discuss three key applications of classification to biomedical sciences.  
+> **1. Early Detection / Disease Diagnosis**
+> **2. Disease Monitoring**
+> **3. Functional Genomics**
+
+## Early Detection / Disease Diagnosis  
+Classification algorithms can assist in early detection and disease diagnosis. These machine learning tools have the potential to accelerate decision-making of disease diagnosis by automating visual examinations by physicians, perhaps to flag abnormalities. Expediting this process while maintaining accuracy can enable early detection of conditions such as skin cancer, in which early diagnosis improves prognosis for survival tremendously.  
+[ML and Medical Diagnosis](https://kili-technology.com/data-labeling/machine-learning/machine-learning-and-medical-diagnosis-an-introduction-to-how-ai-improves-disease-detection)
+
+For example, classification algorithms can be applied to distinguish between **Benign** and **Malignant** tumors. 
+<div align="center">
+<img src="" 
+  width="400 height="250">
+</div>
 
 # Conclusion 
