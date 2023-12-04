@@ -53,7 +53,7 @@ A neural network is like a team learning to identify fruits. Each member special
 **STEPS**<br>
 **1.** Prepare the data and preprocess. <br>
 **2.** Choose a type of neural network that suits your needs (i.e. convolutional neural network)  
-      Use TensorFlow  
+* Use TensorFlow  
 **3.** Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? <br>
 **4.** Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) <br>
 **5.** The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
