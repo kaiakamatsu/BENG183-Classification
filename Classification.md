@@ -123,6 +123,8 @@ plt.ylabel(‘Error Rate’)
 ```
 By keeping track of the error rates and the k values, we will be looking at which k value has the lowest error rate. By doing so we can prevent over/under fitting.  
 For example:  
+
+<div align="center">
 <img src="https://miro.medium.com/v2/resize:fit:1316/format:webp/1*DevIKIpXaJm7xkodmcefQg.png" width="400
  height="250">
 </div>
