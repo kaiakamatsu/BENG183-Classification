@@ -31,11 +31,11 @@ In the field of bioinformatics, with the explosive growth of technology also cam
 The k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for advice. Imagine you're trying to figure out what type of an unknown vegetable is in your basket. You look at the labeled vegetables your neighbors have, compare them, and decide based on the most similar ones.
   
 **STEPS**<br>
-1. Prepare the data containing various data points with known classes or labels <br>
-2. This is considered the training process<br>
-3. Introduce a brand new data point (the unknown vegetable) where you want to assign it to a class based on its characteristics. <br>
-4. The k-NN algorithm identifies the k number of neighbors near the new data point based on similarity scores (using metrics such as Euclidean or Manhattan distancing). This is the concept of looking at your neighbors vegetables that are already labeled. <br>
-5. These k neighbors will be considered most similar to the data point, where we can classify.<br>
+**1.** Prepare the data containing various data points with known classes or labels <br>
+**2.** This is considered the training process<br>
+**3.** Introduce a brand new data point (the unknown vegetable) where you want to assign it to a class based on its characteristics. <br>
+**4.** The k-NN algorithm identifies the k number of neighbors near the new data point based on similarity scores (using metrics such as Euclidean or Manhattan distancing). This is the concept of looking at your neighbors vegetables that are already labeled. <br>
+**5.** These k neighbors will be considered most similar to the data point, where we can classify.<br>
   
 **Note:** It is important to plot the validation curve in order to determine the optimal value for k.<br>
 <br>
@@ -51,13 +51,13 @@ From:<br>
 A neural network is like a team learning to identify fruits. Each member specializes in recognizing specific fruit traits (color, shape, texture) just as neural network layers focus on different aspects. They share insights like how neurons exchange information. Training involves showing labeled fruit examples, improving their ability to identify fruits. Testing checks their proficiency. The team gets better with more fruit exposure, similar to how neural networks improve with more data.<br>
   
 **STEPS**<br>
-1. Prepare the data and preprocess. <br>
-2. Choose a type of neural network that suits your needs (i.e. convolutional neural network)  
+**1.** Prepare the data and preprocess. <br>
+**2.** Choose a type of neural network that suits your needs (i.e. convolutional neural network)  
       Use TensorFlow  
-3. Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? <br>
-4. Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) <br>
-5. The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
-6. Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
+**3.** Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? <br>
+**4.** Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) <br>
+**5.** The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
+**6.** Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
 Have proper measure to prevent overfitting <br>
 [**Example from TensorFlow:**](https://www.tensorflow.org/tutorials/images/cnn)  
 ```
@@ -68,7 +68,7 @@ model.compile(optimizer='adam',
 history = model.fit(train_images, train_labels, epochs=10, 
                     validation_data=(test_images, test_labels))
 ```  
-7. Once the  model is ready, introduce new unknown data and runs it through the model<br>
+**7.** Once the  model is ready, introduce new unknown data and runs it through the model<br>
 
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/5aa1041e-064a-4dc7-abf9-517f436ed85b" width="600"
@@ -83,16 +83,16 @@ From: <br>
 Support Vector Machines (SVMs) are similar to a wise judge creating a clear boundary in a courtroom. Picture a judge presiding over a complex case with two sides presenting different arguments. The judge (SVM) seeks a fair and decisive line (decision boundary) that separates the two stances, ensuring a just verdict. Just as the judge carefully weighs evidence and arguments to establish a balanced judgment, SVMs analyze data to create an optimal boundary that maximizes the margin between classes, ensuring a clear distinction between different data groups, much like the judge's ruling brings clarity to a legal dispute.<br>
   
 **STEPS**<br>
-1. Prepare the data and preprocess <br>
-2. Choose a kernel (i.e. linear, polynomial, sigmoid, Gaussian Radial Basis Function, etc). Choose the kernelbased on the type of data being used<br>
-3. Tune the kernel hyper parameters (i.e. gamma RBF) <br>
-4. Set up the SVM model (i.e. Scikit-learn) <br>
-5. Train the data using the .fit method 
+**1.** Prepare the data and preprocess <br>
+**2.** Choose a kernel (i.e. linear, polynomial, sigmoid, Gaussian Radial Basis Function, etc). Choose the kernelbased on the type of data being used<br>
+**3.** Tune the kernel hyper parameters (i.e. gamma RBF) <br>
+**4.** Set up the SVM model (i.e. Scikit-learn) <br>
+**5.** Train the data using the .fit method 
 ```
 svm_cv.fit(X_train,y_train)
 ```
-6. Assess the performance using accuracy, recall, etc as flags. Adjust hyper parameters if unsatisfactory <br>
-7. Once the  model is ready, introduce new unknown data and runs it through the model<br>
+**6.** Assess the performance using accuracy, recall, etc as flags. Adjust hyper parameters if unsatisfactory <br>
+**7.** Once the  model is ready, introduce new unknown data and runs it through the model<br>
 
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/fea2349f-704a-4819-b6d8-c5db1ba8e049" width="600"
