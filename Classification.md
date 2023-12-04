@@ -85,8 +85,8 @@ svm_cv.fit(X_train,y_train)
 7 Once the  model is ready, introduce new unknown data and runs it through the model<br>
 
 <div align="center">
-<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/fea2349f-704a-4819-b6d8-c5db1ba8e049" width="800"
- height="500">
+<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/fea2349f-704a-4819-b6d8-c5db1ba8e049" width="600"
+ height="400">
 </div>
   
 From:  
