@@ -30,15 +30,15 @@
 ## k-Nearest neighbor 
 The k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for advice. Imagine you're trying to figure out what type of an unknown vegetable is in your basket. You look at the labeled vegetables your neighbors have, compare them, and decide based on the most similar ones.<br>
 **STEPS**<br>
-1) Prepare the data containing various data points with known classes or labels <br>
+1 Prepare the data containing various data points with known classes or labels <br>
 <br>
-2) This is considered the training process<br>
+2 This is considered the training process<br>
 <br>
-3) Introduce a brand new data point (the unknown vegetable) where you want to assign it to a class based on its characteristics. <br>
+3 Introduce a brand new data point (the unknown vegetable) where you want to assign it to a class based on its characteristics. <br>
 <br>
-4) The k-NN algorithm identifies the k number of neighbors near the new data point based on similarity scores (using metrics such as Euclidean or Manhattan distancing). This is the concept of looking at your neighbors vegetables that are already labeled. <br>
+4 The k-NN algorithm identifies the k number of neighbors near the new data point based on similarity scores (using metrics such as Euclidean or Manhattan distancing). This is the concept of looking at your neighbors vegetables that are already labeled. <br>
 <br>
-5) These k neighbors will be considered most similar to the data point, where we can classify.<br>
+5 These k neighbors will be considered most similar to the data point, where we can classify.<br>
 <br>
 **Note:** It is important to plot the validation curve in order to determine the optimal value for k.<br>
 <br>
