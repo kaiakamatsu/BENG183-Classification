@@ -157,4 +157,6 @@ We introduce a new data point.
 
 # Biological Applications 
 
+## Types
+
 # Conclusion 
