@@ -94,9 +94,15 @@ The training process of the KNN classification algorithm is fairly straightfowar
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/d132c288-47f9-4746-8381-5e0801588ba5" width="400" height="300">
 </div>  
+  
+It is essential to have different colors for labels in order to be able to differentiate.  
+### Introduction of a New Data Point  
 
-
-
+<div align="center">
+<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/253a59b4-6810-4eee-930c-7fe859800781" width="400
+ height="250">
+</div>
+[Image Credits] (https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)
 ## Supplements
 1. How is distance defined?
 2. How does K affect classification?
