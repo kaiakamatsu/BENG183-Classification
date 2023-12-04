@@ -39,6 +39,9 @@ The k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for a
   
 **Note:** It is important to plot the validation curve in order to determine the optimal value for k.<br>
 <br>
+<div align="center">
+<img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cc3fc86-5e8f-4e73-b4ad-ae0061b10c2b_800x585.gif" width="800" height="500">
+</div>
   
 ![k nearest neighbors visualization](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9cc3fc86-5e8f-4e73-b4ad-ae0061b10c2b_800x585.gif)
 
