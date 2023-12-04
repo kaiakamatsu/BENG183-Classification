@@ -138,8 +138,13 @@ The optimal k value will be 20 as it has the lowest error rate.
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/253a59b4-6810-4eee-930c-7fe859800781" width="400
  height="250">
 </div>
+
 [Image Credits](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)  
-We introduce a new data point. 
+
+When we introduce a new data point we will calculate the distances from the new data point to the others using the chosen distance metric. 
+Then we can sort the calculated distances in ascending order based on distance values. This way, we can look at the top k rows for the closest k neighbors. Ultimately, we can see which neighbors the new data point is and make a decision on which label it belongs due to the highest vote. 
+
+
 
 ## Supplements
 1. How is distance defined?
