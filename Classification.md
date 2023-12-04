@@ -190,7 +190,7 @@ From: [ML and Medical Diagnosis](https://kili-technology.com/data-labeling/machi
 
 For example, classification algorithms can be applied to distinguish between **Benign** and **Malignant** tumors. 
 <div align="center">
-<img src="" 
+<img src="https://www.verywellhealth.com/thmb/LoHuaSfq_qbKGtSNk3yWBeS0f7s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/514240-article-img-malignant-vs-benign-tumor2111891f-54cc-47aa-8967-4cd5411fdb2f-5a2848f122fa3a0037c544be.png" 
   width="400 height="250">
 </div>
 
