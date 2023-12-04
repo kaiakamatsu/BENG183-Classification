@@ -217,8 +217,21 @@ Next, let's explore a scenario in which a bioinformatician wants to classify a t
   width="400 height="250">
 </div>
 
-In this model, they utilize gene expression values for 13,250 genes as input data to a neural network. Their model achieves a **97.33%** overall accuracy on their testing data. Interestingly, they interpret the layers of their model to identify several gene signatures that can be used as biomarkers for determining the cancer's tissue of origin. 
+In this model, they utilize gene expression levels for 13,250 genes as input data to a neural network. Their model achieves a **97.33%** overall accuracy on their testing data. Interestingly, they interpret the layers of their model to identify several gene signatures that can be used as biomarkers for determining the cancer's tissue of origin. 
 
-## Disease Monitoring 
+## Disease Monitoring  
+Classification algorithms can also improve disease monitoring by categorizing the severity of a condition based on several clinical variables. Monitoring key clinical variables for a disease and leveraging these machine learning models can potentially inform professionals of the direction of disease progression and help them make clinical decisions. 
+
+[Jovel et al. 2021, *Frontiers in Medicine*](https://www.frontiersin.org/articles/10.3389/fmed.2021.771607/full) applies many of the classification algorithms described in this paper to predict the survival of hepatitis patients based on blood tests that reflect liver function.
+
+<div align="center">
+<img src="https://www.frontiersin.org/files/Articles/771607/fmed-08-771607-HTML/image_m/fmed-08-771607-g002.jpg" 
+  width="400 height="250">
+</div>
+
+Notably, they implemented k-nearest neighbors, random forest, support vector machine, and logistic regression models to perform this classification task. **Figure F** above shows that the logistic regression model outperforms other models by achieving a **90%** accuracy. **Figure A** displays that the k-nearest neighbors algorithm performed best with k = 1-5. Analyzing the importance of every feature in the random forest model, as shown in **figure B** shows that Albumin, Bilirubin, and Protime levels (all proteins or compound found in the liver) are the most important features in predicting the survival outcome of hepatitis patients. Indeed, plotting the data as a scatter plot with these three measurements on the axis (**figure C**) show that these features separate the two categories of patients in 3-dimensional space. Lastly, **figure D** shows the decision surface used by the logistic regression model, reflecting it's effectiveness in separating patients in the two survival outcomes. 
+
+## Functional Genomics 
+
 
 # Conclusion 
