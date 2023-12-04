@@ -151,7 +151,11 @@ The optimal k value will be 20 as it has the lowest error rate.
 When we introduce a new data point we will calculate the distances from the new data point to the others using the chosen distance metric. 
 Then we can sort the calculated distances in ascending order based on distance values. This way, we can look at the top k rows for the closest k neighbors. Ultimately, we can see which neighbors the new data point is and make a decision on which label it belongs due to the highest vote. 
 
-## Limitations
+## Limitations  
+### Runtime and Storage  
+There are several limitations for the k-nearest neighbor model. The run time growns linearly with the size of the training data, meaning it can be extremely extensive with big data sets. This also means that it will take up a significant amount of memory as we are storing all the points. 
+### k-NN features
+Some features that could possibly limit the model is the neccesity of the optimal k value. Because this k value looks at all the data points equally when using the elbow method, the lack of weighing means that it is easily influenced by noise compared to other models. 
 
 # Support Vector Machine 
 
