@@ -53,7 +53,8 @@ Feed the training data into the model. Keep an eye on the optimizer in order to 
 Have proper measure to prevent overfitting 
 Once the  model is ready, introduce new unknown data and runs it through the model
 
-![Uploading 999181_BIpRgx5FsEMhr1k2EqBKFg (1).gif…]()
+![999181_BIpRgx5FsEMhr1k2EqBKFg (1)](https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/5aa1041e-064a-4dc7-abf9-517f436ed85b)
+
 
 # K-Nearest Neighbors Classification 
 
