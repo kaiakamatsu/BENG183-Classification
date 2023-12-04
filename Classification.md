@@ -74,6 +74,7 @@ From:
 ## Supplements
 1. How is distance defined?
 2. How does K affect classification?
+## Limitations
 
 # Support Vector Machine 
 
@@ -81,6 +82,7 @@ From:
 ## Walk-through
 ## Implementation
 ## Supplements
+## Limitations
 
 # Biological Applications 
 
