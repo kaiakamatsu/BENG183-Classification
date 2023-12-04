@@ -151,12 +151,6 @@ The optimal k value will be 20 as it has the lowest error rate.
 When we introduce a new data point we will calculate the distances from the new data point to the others using the chosen distance metric. 
 Then we can sort the calculated distances in ascending order based on distance values. This way, we can look at the top k rows for the closest k neighbors. Ultimately, we can see which neighbors the new data point is and make a decision on which label it belongs due to the highest vote. 
 
-
-
-## Supplements
-1. How is distance defined?
-   The distance between points u and v. We can use various distance metrics as shown above. 
-3. How does K affect classification?
 ## Limitations
 
 # Support Vector Machine 
