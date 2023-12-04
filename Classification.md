@@ -157,6 +157,8 @@ There are several limitations for the k-nearest neighbor model. The run time gro
 ### k-NN features
 Some features that could possibly limit the model is the neccesity of the optimal k value. Because this k value looks at all the data points equally when using the elbow method, the lack of weighing means that it is easily influenced by noise compared to other models. 
 
+Ultimately 
+
 # Support Vector Machine 
 
 ## Intuition/Analogy
