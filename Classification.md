@@ -83,9 +83,12 @@ svm_cv.fit(X_train,y_train)
 ```
 6 Assess the performance using accuracy, recall, etc as flags. Adjust hyper parameters if unsatisfactory <br>
 7 Once the  model is ready, introduce new unknown data and runs it through the model<br>
-  
-![SVM visualization](https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/fea2349f-704a-4819-b6d8-c5db1ba8e049)
 
+<div align="center">
+<img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/fea2349f-704a-4819-b6d8-c5db1ba8e049" width="800"
+ height="500">
+</div>
+  
 From:  
 [SVM Overview](https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/#h-kernels-in-support-vector-machine), [StatsQuest Video](https://www.youtube.com/watch?v=efR1C6CvhmE&ab_channel=StatQuestwithJoshStarmer)
 # K-Nearest Neighbors Classification 
