@@ -186,7 +186,8 @@ Here, we will discuss three key applications of classification to biomedical sci
 
 ## Early Detection / Disease Diagnosis  
 Classification algorithms can assist in early detection and disease diagnosis. These machine learning tools have the potential to accelerate decision-making of disease diagnosis by automating visual examinations by physicians, perhaps to flag abnormalities. Expediting this process while maintaining accuracy can enable early detection of conditions such as skin cancer, in which early diagnosis improves prognosis for survival tremendously.  
-From: [ML and Medical Diagnosis](https://kili-technology.com/data-labeling/machine-learning/machine-learning-and-medical-diagnosis-an-introduction-to-how-ai-improves-disease-detection)
+
+> From: [ML and Medical Diagnosis](https://kili-technology.com/data-labeling/machine-learning/machine-learning-and-medical-diagnosis-an-introduction-to-how-ai-improves-disease-detection)
 
 ### Classifying tumors
 For example, classification algorithms can be applied to distinguish between **Benign** and **Malignant** tumors. 
@@ -195,6 +196,8 @@ For example, classification algorithms can be applied to distinguish between **B
 <img src="https://www.verywellhealth.com/thmb/LoHuaSfq_qbKGtSNk3yWBeS0f7s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/514240-article-img-malignant-vs-benign-tumor2111891f-54cc-47aa-8967-4cd5411fdb2f-5a2848f122fa3a0037c544be.png" 
   width="400 height="250">
 </div>
+
+> From: [Malignant vs. Benign Tumors](https://www.verywellhealth.com/what-does-malignant-and-benign-mean-514240#:~:text=benign%20or%20malignant.-,Benign%20tumors%20are%20noncancerous.,malignant%2C%20this%20is%20not%20common.)
 
 Let's explore a scenario in which a healthcare provider wants to classify a tumor based on an image. Based on several visual features of the tumor images, can we accurately catergorize the tumor as benign or malignant? 
 
