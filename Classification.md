@@ -99,9 +99,9 @@ It is essential to have different colors for labels in order to be able to diffe
 ### Importance of variable "k"
 <div align="center">
 <img src="https://www.analyticsvidhya.com/wp-content/uploads/2014/10/K-judgement.png" width="400"
- height="250">
+ height="200">  
  <img src="https://www.analyticsvidhya.com/wp-content/uploads/2014/10/K-judgement2.png" width="400"
- height="250">
+ height="200">  
 </div>
 ### Introduction of a New Data Point  
 
