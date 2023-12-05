@@ -332,4 +332,8 @@ Although classification tasks are less common in functional genomics, there are 
 Here, ChIP-seq data is used as the cellular truth to train the logistic regression model. Hundreds of local epigenetic features, including open chromatin and H3K4me1, are used as variables to predict the probability of TF occupancy at nuceotide resolution. This models achieves a average AUPRC higher than state-of-the-art approaches to predict TF binding. Integration with genome-wide association study (GWAS) data shows that regulatory elements identified by IMPACT explains a large portion of the heritability of complex diseases such as rheumatoid arthritis. 
 
 # Conclusion 
-Classification is a powerful group of supervised machine learning models that can predict the categorical labels of input objects. 
+
+- Classification is a powerful group of supervised machine learning models that can predict the categorical labels of input objects. Each of these classification algorithms introduced in this paper have their own advantages and limitations. 
+- Machine-learning is poised to transform biomedical sciences. We introduced three key applications of classification: disease diagnosis, disease monitoring, and functional genomics.
+- The development of novel classification algorithm can potentially accelerate clinical decision-making, democratize disease diagnosis/monitoring, and propel therapeutic development. 
+
