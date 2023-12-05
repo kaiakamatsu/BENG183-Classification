@@ -38,7 +38,7 @@ The explosive growth of technology in bioinformatics yields new biological datas
 > **To build a stronger intuition about k-Nearest Neighbor and Support Vector Machines, please see their respective sections below.**
 
 ## k-Nearest neighbor 
-The k-Nearest Neighbor (k-NN) method categorizes a new data point based on the k-nearest neighbors around that data point. For example, if k = 11, we will categorize the new data point based on the majority category of the 11 nearest points near it. 
+The k-Nearest Neighbor (k-NN) method categorizes a new data point based on the k-nearest neighbors around that data point. For example, if k = 11, we will categorize the new data point based on the majority category of the 11 nearest points near it.  
 **STEPS**<br>
 **1.** Prepare the data containing various data points with known classes or labels <br>
 **2.** This is considered the training process<br>
@@ -57,7 +57,7 @@ From:<br>
 
 
 ## Neural networks
-A neural network is like a team learning to identify fruits. Each member specializes in recognizing specific fruit traits (color, shape, texture) just as neural network layers focus on different aspects. They share insights like how neurons exchange information. Training involves showing labeled fruit examples, improving their ability to identify fruits. Testing checks their proficiency. The team gets better with more fruit exposure, similar to how neural networks improve with more data.<br>
+A neural network consists of an input layer, _n_ hidden layers, and an output layer. Each node in the layer have a specific weight and bias attached to them, and all layers are connected. As we train the model, we adjust the weight and bias of nodes so that we result in a more accurate model (through gradient descent). 
   
 **STEPS**<br>
 **1.** Prepare the data and preprocess. <br>
@@ -89,7 +89,7 @@ From: <br>
 [Convolutional Neural Networks](https://www.analyticsvidhya.com/blog/2021/07/convolution-neural-network-the-base-for-many-deep-learning-algorithms-cnn-illustrated-by-1-d-ecg-signal-physionet/), [Adam](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/#:~:text=In%20summary%2C%20Adam%20optimizer%20is,weights%20during%20deep%20learning%20training), [Cross Entropy Loss](https://www.v7labs.com/blog/cross-entropy-loss-guide#:~:text=Cross%2Dentropy%20loss%2C%20or%20log,diverges%20from%20the%20actual%20label), [Types of Neural Networks](https://www.mygreatlearning.com/blog/types-of-neural-networks/), [TensorFlow Example](https://www.tensorflow.org/tutorials/images/cnn)
 
 ## Support Vector Machines
-Support Vector Machines (SVMs) are similar to a wise judge creating a clear boundary in a courtroom. Picture a judge presiding over a complex case with two sides presenting different arguments. The judge (SVM) seeks a fair and decisive line (decision boundary) that separates the two stances, ensuring a just verdict. Just as the judge carefully weighs evidence and arguments to establish a balanced judgment, SVMs analyze data to create an optimal boundary that maximizes the margin between classes, ensuring a clear distinction between different data groups, much like the judge's ruling brings clarity to a legal dispute.<br>
+Support Vector Machines (SVMs) classify data points by finding the most optimal decision boundary. The main aim of SVM to find a hyperplane that maximizes the distance from different categories. SVMs also do not have to be linear, meaning we can incorporate kernel functions. Kernel functions rely on the process of mapping datasets to a higher dimensions that makes data point separation easier. Ultimately, SVMs are important in the seperation of data for classification. 
   
 **STEPS**<br>
 **1.** Prepare the data and preprocess <br>
