@@ -22,6 +22,7 @@
 
 # Introduction 
 The explosive growth of technology in bioinformatics yields new biological datasets, which presents both unique opportunities and challenges. The accumulation of new sequencing, protein structure, and 3-D genome interaction data has revolutionized our understanding of the human body. Amid this abundance of information, the extraction of meaningful insights relies on effective organization and analysis. This is where classification comes into play, a group of supervised machine learning models that can be used to categore and decipher patterns in biological data. By leveraging various algorithms, we can find invisible correlations between data sets, predict binding sites, and aid in many other biomedical applications. This paper will navigate the current landscape of classification techniques by exploring different types of machine learning algorithms and discussing their powerful applications to biomedical problems. 
+
 # Why Classification? 
 
 
@@ -95,7 +96,7 @@ svm_cv.fit(X_train,y_train)
 
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/fea2349f-704a-4819-b6d8-c5db1ba8e049" width="600"
- height="400">
+ height="300">
 </div>
   
 From:  
