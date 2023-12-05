@@ -183,7 +183,7 @@ Support Vector Machines aim to classify labeled data into two classes. Imagine y
 ## Walk-through/Implementation
 Support Vector Machines are implemented by creating a hyperplane to separate the labeled data into two groups. Groups are not always linearly separable so we may need to apply a transformation to make separation possible. This transformation is called a kernel which I discuss further below. Let us know take a look at the code to implement a SVM.
 
-'''
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
@@ -242,7 +242,7 @@ plt.show()
  height="250">
 </div>
 
-'''
+```
 
 ## Supplements
 1. Kernels 
