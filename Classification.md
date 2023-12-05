@@ -27,6 +27,16 @@ The explosive growth of technology in bioinformatics yields new biological datas
 
 
 # What are the types of Classification algorithms? 
+
+- Logistic Regression
+- Random Forest
+- k-Nearest Neighbor
+- Neural Network
+- Support Vector Machines
+
+> **Here, we will briefly discuss three powerful classification algoriths: k-Nearest Neighbor, Neural Network, and Support Vector Machines.**  
+> **To build a stronger intuition about k-Nearest Neighbor and Support Vector Machines, please see their respective sections below.**
+
 ## k-Nearest neighbor 
 The k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for advice. Imagine you're trying to figure out what type of an unknown vegetable is in your basket. You look at the labeled vegetables your neighbors have, compare them, and decide based on the most similar ones.
   
@@ -101,6 +111,7 @@ svm_cv.fit(X_train,y_train)
   
 From:  
 [SVM Overview](https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/#h-kernels-in-support-vector-machine), [StatsQuest Video](https://www.youtube.com/watch?v=efR1C6CvhmE&ab_channel=StatQuestwithJoshStarmer)
+
 # K-Nearest Neighbors Classification 
 
 ## Intuition/Analogy
@@ -321,3 +332,4 @@ Although classification tasks are less common in functional genomics, there are 
 Here, ChIP-seq data is used as the cellular truth to train the logistic regression model. Hundreds of local epigenetic features, including open chromatin and H3K4me1, are used as variables to predict the probability of TF occupancy at nuceotide resolution. This models achieves a average AUPRC higher than state-of-the-art approaches to predict TF binding. Integration with genome-wide association study (GWAS) data shows that regulatory elements identified by IMPACT explains a large portion of the heritability of complex diseases such as rheumatoid arthritis. 
 
 # Conclusion 
+Classification is a powerful group of supervised machine learning models that can predict the categorical labels of input objects. 
