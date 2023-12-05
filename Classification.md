@@ -38,7 +38,7 @@ The explosive growth of technology in bioinformatics yields new biological datas
 > **To build a stronger intuition about k-Nearest Neighbor and Support Vector Machines, please see their respective sections below.**
 
 ## k-Nearest neighbor 
-The k-Nearest Neighbor (k-NN) method categorizes a new data point based on the k-nearest neighbors around that data point. For example, if k = 11, we will categorize the new data point based on the majority category of the 11 nearest points near it.    
+The k-Nearest Neighbor (k-NN) method categorizes a new data point based on the k-nearest neighbors around that data point. For example, if k = 11, we will categorize the new data point based on the majority category of the 11 nearest points near it.<br>
 **STEPS**<br>
 **1.** Prepare the data containing various data points with known classes or labels <br>
 **2.** This is considered the training process<br>
