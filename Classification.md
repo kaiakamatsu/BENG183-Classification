@@ -171,9 +171,11 @@ Then we can sort the calculated distances in ascending order based on distance v
 ### Runtime and Storage  
 There are several limitations for the k-nearest neighbor model. The run time growns linearly with the size of the training data, meaning it can be extremely extensive with big data sets. This also means that it will take up a significant amount of memory as we are storing all the points. 
 ### k-NN features
-Some features that could possibly limit the model is the neccesity of the optimal k value. Because this k value looks at all the data points equally when using the elbow method, the lack of weighing means that it is easily influenced by noise compared to other models.
+Some features that could possibly limit the model is the neccesity of the optimal k value. Because this k value looks at all the data points equally when using the elbow method, the lack of weighing means that it is easily influenced by noise compared to other models. 
 
-These limitations highlight the need for careful consideration and preprocessing of data before applying the k-NN algorithm. Addressing issues related to computational scalability, feature relevance, and noise handling can improve the model's effectiveness in real-world applications. Additionally, exploring alternative algorithms or methods that can handle large datasets more efficiently or provide mechanisms for feature weighting might offer solutions to these challenges in pattern recognition and classification tasks.
+This also means that when running k-nearest neighbor on an unbalanced data set (lets say there is a significant majority ), we can have a biased result. This is due to the fact that the majority can dominate the decision of the model, which causes the minority have a higher chance of being misclassified. 
+
+These limitations highlight the need for careful consideration and preprocessing of data before applying the k-NN algorithm. Addressing issues realted to weighing of points and reduction of noise can improve the model's effectiveness in real-world applications. Additionally, exploring alternative algorithms or methods that can handle large datasets more efficiently or provide mechanisms for feature weighting might offer solutions to the challenges k-NN faces.
 
 # Support Vector Machine 
 
