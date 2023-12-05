@@ -57,7 +57,7 @@ From:<br>
 
 
 ## Neural networks
-A neural network consists of an input layer, _n_ hidden layers, and an output layer. Each node in the layer have a specific weight and bias attached to them, and all layers are connected. As we train the model, we adjust the weight and bias of nodes so that we result in a more accurate model (through gradient descent). 
+A neural network consists of an input layer, _n_ hidden layers, and an output layer. Each node in the layer have a specific weight and bias attached to them, and all layers are connected. As we train the model, we adjust the weight and bias of nodes, through techniques like gradient descent, so that it results in a more accurate model. 
   
 **STEPS**<br>
 **1.** Prepare the data and preprocess. <br>
@@ -89,8 +89,8 @@ From: <br>
 [Convolutional Neural Networks](https://www.analyticsvidhya.com/blog/2021/07/convolution-neural-network-the-base-for-many-deep-learning-algorithms-cnn-illustrated-by-1-d-ecg-signal-physionet/), [Adam](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/#:~:text=In%20summary%2C%20Adam%20optimizer%20is,weights%20during%20deep%20learning%20training), [Cross Entropy Loss](https://www.v7labs.com/blog/cross-entropy-loss-guide#:~:text=Cross%2Dentropy%20loss%2C%20or%20log,diverges%20from%20the%20actual%20label), [Types of Neural Networks](https://www.mygreatlearning.com/blog/types-of-neural-networks/), [TensorFlow Example](https://www.tensorflow.org/tutorials/images/cnn)
 
 ## Support Vector Machines
-Support Vector Machines (SVMs) classify data points by finding the most optimal decision boundary. The main aim of SVM to find a hyperplane that maximizes the distance from different categories. SVMs also do not have to be linear, meaning we can incorporate kernel functions. Kernel functions rely on the process of mapping datasets to a higher dimensions that makes data point separation easier. Ultimately, SVMs are important in the seperation of data for classification. 
-  
+Support Vector Machines (SVMs) classify data points by finding the most optimal decision boundary. The main aim of SVM to find a hyperplane that maximizes the distance from different categories. SVMs also do not have to be linear, meaning we can incorporate kernel functions, which rely on the process of mapping datasets to a higher dimensions that makes data point separation easier. Overall, SVMs play an important role in separating data for classification purposes.
+
 **STEPS**<br>
 **1.** Prepare the data and preprocess <br>
 **2.** Choose a kernel (i.e. linear, polynomial, sigmoid, Gaussian Radial Basis Function, etc). Choose the kernelbased on the type of data being used<br>
