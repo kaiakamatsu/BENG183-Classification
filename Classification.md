@@ -258,7 +258,7 @@ Here, we will discuss three key applications of classification to biomedical sci
 > **3. Functional Genomics**  
 
 ## Early Detection / Disease Diagnosis  
-Classification algorithms can assist in early detection and disease diagnosis. These machine learning tools have the potential to accelerate decision-making of disease diagnosis by automating visual examinations by physicians, perhaps to flag abnormalities. Expediting this process while maintaining accuracy can enable early detection of conditions such as skin cancer, in which early diagnosis improves prognosis for survival tremendously.  
+Classification algorithms can assist in early detection and disease diagnosis. These machine learning tools have the potential to accelerate decision-making of disease diagnosis by automating visual examinations, perhaps to flag abnormalities. Expediting this process while maintaining accuracy can enable early detection of conditions such as skin cancer, in which early diagnosis improves prognosis for survival tremendously.  
 
 > From: [ML and Medical Diagnosis](https://kili-technology.com/data-labeling/machine-learning/machine-learning-and-medical-diagnosis-an-introduction-to-how-ai-improves-disease-detection)
 
@@ -274,7 +274,7 @@ For example, classification algorithms can be applied to distinguish between **B
 
 Let's explore a scenario in which a healthcare provider wants to classify a tumor based on an image. Based on several visual features of the tumor images, can we accurately catergorize the tumor as benign or malignant? 
 
-[Khairunnahar et al. 2019, *Informatics in Medicine Unlocked*](https://www.sciencedirect.com/science/article/pii/S2352914818301497#sec1) explores this question by implementing a logistic regression model for tumor classificaiton. They utilize a labeled breast cancer diagnosis [dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) with the following features: Radius, Texture, Perimeter, Area, Smoothness, Compactness, Concavity, Concave points, Symmetry and Fractal dimension. In their analysis, they create a logistic regression model that can predict tumor malignancy with **97.4249% accuracy**. See ROC curve below: 
+[Khairunnahar et al. 2019, *Informatics in Medicine Unlocked*](https://www.sciencedirect.com/science/article/pii/S2352914818301497#sec1) explores this question by implementing a logistic regression model for tumor classification. They utilize a labeled breast cancer diagnosis [dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) with the following features: Radius, Texture, Perimeter, Area, Smoothness, Compactness, Concavity, Concave points, Symmetry and Fractal dimension. In their analysis, they create a logistic regression model that can predict tumor malignancy with **97.4249% accuracy**. See ROC curve below: 
 
 <div align="center">
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2352914818301497-gr5_lrg.jpg" 
@@ -290,31 +290,30 @@ Next, let's explore a scenario in which a bioinformatician wants to classify a t
   width="400 height="250">
 </div>
 
-In this model, they utilize gene expression levels for 13,250 genes as input data to a neural network. Their model achieves a **97.33%** overall accuracy on their testing data. Interestingly, they interpret the layers of their model to identify several gene signatures that can be used as biomarkers for determining the cancer's tissue of origin. 
+In this model, they utilize gene expression levels for 13,250 genes as input data to a neural network. Their model achieves a **97.33%** overall accuracy on their testing data. Interestingly, they interpret the layers of the neural network to identify several gene signatures that can be used as biomarkers for determining the cancer's tissue of origin. 
 
 ## Disease Monitoring  
-Classification algorithms can also improve disease monitoring by categorizing the severity of a condition based on several clinical variables. Monitoring key clinical variables for a disease and leveraging these machine learning models can potentially inform professionals of the direction of disease progression and help them make clinical decisions. 
+Classification algorithms can also improve disease monitoring by categorizing the severity of a condition. Monitoring key clinical variables for a disease and leveraging these machine learning models can potentially inform professionals of the direction of disease progression and help them make clinical decisions. 
 
 [Jovel et al. 2021, *Frontiers in Medicine*](https://www.frontiersin.org/articles/10.3389/fmed.2021.771607/full) applies many of the classification algorithms described in this paper to predict the survival of hepatitis patients based on blood tests that reflect liver function.
 
 <div align="center">
 <img src="https://www.frontiersin.org/files/Articles/771607/fmed-08-771607-HTML/image_m/fmed-08-771607-g002.jpg" 
-  width="400 height="250">
+  width="500 height="300">
 </div>
 
-Notably, they implemented k-nearest neighbors, random forest, support vector machine, and logistic regression models to perform this classification task. **Figure F** above shows that the logistic regression model outperforms other models by achieving a **90%** accuracy. **Figure A** displays that the k-nearest neighbors algorithm performed best with k = 1-5. Analyzing the importance of every feature in the random forest model, as shown in **figure B** shows that Albumin, Bilirubin, and Protime levels (all proteins or compound found in the liver) are the most important features in predicting the survival outcome of hepatitis patients. Indeed, plotting the data as a scatter plot with these three measurements on the axis (**figure C**) show that these features separate the two categories of patients in 3-dimensional space. Lastly, **figure D** shows the decision surface used by the logistic regression model, reflecting it's effectiveness in separating patients in the two survival outcomes. 
+Notably, they implemented k-nearest neighbors, random forest, support vector machine, and logistic regression models to perform this classification task. **Figure F** above shows that the logistic regression model outperforms other models by achieving a **90%** accuracy. **Figure A** displays that the k-nearest neighbors algorithm performed best with k = 1-5. Analyzing the importance of every feature in the random forest model, as shown in **figure B**, shows that Albumin, Bilirubin, and Protime levels (all proteins or compound found in the liver) are the most important features in predicting the survival outcome of hepatitis patients. Indeed, plotting the data as a scatter plot with these three measurements on the axes (**figure C**) show that these features separate the two categories of patients in 3-dimensional space. Lastly, **figure D** shows the decision surface used by the logistic regression model, reflecting it's effectiveness in separating patients in the two survival outcomes. 
 
 ## Functional Genomics 
-Although classification tasks are not as common in functional genomics, there are certainly some powerful applications of classification algorithms for genomic annotation. 
+Although classification tasks are less common in functional genomics, there are certainly some powerful applications of classification algorithms for genomic annotation. 
 
-[Amariuta et al. 2019, *AJHG*] created a regularized logistic regression model (elastic net) to predict transcription factor ocupancy at binding motifs based on local epigenomic features. 
+[Amariuta et al. 2019, *AJHG*](https://www.cell.com/ajhg/fulltext/S0002-9297(19)30108-9) created a regularized logistic regression model (elastic net) to predict transcription factor occupancy at binding motifs based on local epigenomic features. 
 
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/108591793/3ff4cee9-0d24-4dbc-bdb1-4c9fa3c0fb55" 
   width="400 height="250">
-
 </div>
 
-Here, ChIP-seq data is used as the cellular truth to train the logistic regression model. Hundreds of local epigenetic features, including open chromatin and H3K4me1, are used as variables in the machine learning model to predict the probability of TF occupancy at nuceotide resolution. This models achieves a average AUPRC higher than state-of-the-art approaches to predict TF binding. Integration with genome-wide association study (GWAS) data shows that regulatory elements identified by IMPACT explains a large portion of the heritability of complex diseases such as rheumatoid arthritis. 
+Here, ChIP-seq data is used as the cellular truth to train the logistic regression model. Hundreds of local epigenetic features, including open chromatin and H3K4me1, are used as variables to predict the probability of TF occupancy at nuceotide resolution. This models achieves a average AUPRC higher than state-of-the-art approaches to predict TF binding. Integration with genome-wide association study (GWAS) data shows that regulatory elements identified by IMPACT explains a large portion of the heritability of complex diseases such as rheumatoid arthritis. 
 
 # Conclusion 
