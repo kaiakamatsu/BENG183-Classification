@@ -236,13 +236,14 @@ plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+```
 
 <div align="center">
 <img src="https://www.mltut.com/wp-content/uploads/2020/12/svm7.png" width="400
  height="250">
 </div>
 
-```
+
 
 ## Supplements
 1. Kernels 
