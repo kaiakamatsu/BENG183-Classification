@@ -175,7 +175,7 @@ There are several limitations for the k-nearest neighbor model. The run time gro
 ### k-NN features
 Some features that could possibly limit the model is the neccesity of the optimal k value. Because this k value looks at all the data points equally when using the elbow method, the lack of weighing means that it is easily influenced by noise compared to other models. 
 
-This also means that when running k-nearest neighbor on an unbalanced data set (lets say there is a significant majority ), we can have a biased result. This is due to the fact that the majority can dominate the decision of the model, which causes the minority have a higher chance of being misclassified. 
+This also means that when running k-nearest neighbor on an unbalanced data set (lets say there is a significant majority), we can have a biased result. This is due to the fact that the majority can dominate the decision of the model, which causes the minority have a higher chance of being misclassified. 
 
 These limitations show the need for consideration and preprocessing of data before applying the k-NN algorithm. Addressing issues related to weighing of data and reduction of noise can improve the model's effectiveness in real-world applications. Additionally, exploring alternative algorithms or methods that can handle large datasets more efficiently might offer solutions to the challenges k-NN faces.
 
