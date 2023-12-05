@@ -17,12 +17,13 @@
   - [Walk-through](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#walk-through-1)
   - [Implementation](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#implementation-1)
   - [Supplements](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#supplements-1)
-- [Biological Applications](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#biomedical-applications)
+- [Biomedical Applications](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#biomedical-applications)
 - [Conclusion](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#conclusion)
 
 # Introduction 
-In the field of bioinformatics, with the explosive growth of technology also came the increase in biological data, which presents both unique opportunities and challenges. Through the accumulation of new sequences, protein structures, and much more, this data has revolutionized the understanding of the human body. Amid this abundance of information, the extraction of meaningful insights crucially relies on effective organization and analysis. This is where classification comes into play, a tool for categorizing and deciphering biological data patterns by using supervised machine learning. By leveraging various algorithms, we can find invisible correlations between data sets, predicting binding sites, and aiding in many other biomedical applications. This paper will navigate the landscape of classification techniques from the bottom up, by exploring different types of machine learning algorithms to biological data analysis, where we emphasize the power of classification in bioinformatics. 
+The explosive growth of technology in bioinformatics yields new biological datasets, which presents both unique opportunities and challenges. The accumulation of new sequencing, protein structure, and 3-D genome interaction data has revolutionized our understanding of the human body. Amid this abundance of information, the extraction of meaningful insights relies on effective organization and analysis. This is where classification comes into play, a group of supervised machine learning models that can be used to categore and decipher patterns in biological data. By leveraging various algorithms, we can find invisible correlations between data sets, predict binding sites, and aid in many other biomedical applications. This paper will navigate the current landscape of classification techniques by exploring different types of machine learning algorithms and discussing their powerful applications to biomedical problems. 
 # Why Classification? 
+
 
 # What are the types of Classification algorithms? 
 ## k-Nearest neighbor 
