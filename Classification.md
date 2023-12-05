@@ -175,7 +175,7 @@ Some features that could possibly limit the model is the neccesity of the optima
 
 This also means that when running k-nearest neighbor on an unbalanced data set (lets say there is a significant majority ), we can have a biased result. This is due to the fact that the majority can dominate the decision of the model, which causes the minority have a higher chance of being misclassified. 
 
-These limitations highlight the need for careful consideration and preprocessing of data before applying the k-NN algorithm. Addressing issues realted to weighing of points and reduction of noise can improve the model's effectiveness in real-world applications. Additionally, exploring alternative algorithms or methods that can handle large datasets more efficiently or provide mechanisms for feature weighting might offer solutions to the challenges k-NN faces.
+These limitations show the need for consideration and preprocessing of data before applying the k-NN algorithm. Addressing issues related to weighing of data and reduction of noise can improve the model's effectiveness in real-world applications. Additionally, exploring alternative algorithms or methods that can handle large datasets more efficiently might offer solutions to the challenges k-NN faces.
 
 # Support Vector Machine 
 
