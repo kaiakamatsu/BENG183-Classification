@@ -23,6 +23,7 @@ The explosive growth of technology in bioinformatics yields new biological datas
 
 # Why Classification? 
 
+# What is Classification?
 
 # What are the types of Classification algorithms? 
 
