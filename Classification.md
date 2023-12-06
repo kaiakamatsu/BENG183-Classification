@@ -24,7 +24,27 @@ The explosive growth of technology in bioinformatics yields new biological datas
 
 # Why Classification? 
 
+Let's explore a simple scenario to motivate the importance of classification in machine learning. 
+> You are given a task to categorize a given object as a fruit or a vegetable.
+<div align="center">
+<img width="353" alt="image" src="https://github.com/kaiakamatsu/BENG183-Classification/assets/108591793/751e2817-6a48-4c4a-a01a-5061f7dea56b">
+</div>
+> This single object is a corn, and it is a trivial task to place this into the vegetable category.
+
+> Now consider this task: you are given a task to categorize 1 million objects in this wagon as a fruit or a vegetable.
+<div align="center">
+<img width="372" alt="image" src="https://github.com/kaiakamatsu/BENG183-Classification/assets/108591793/1ba6e9d7-7efa-498c-8b6e-48e3c899a626">
+</div>
+> This is an impossible task to perform manually. Categorizing fruits and vegetables does not seem like an urgent task. 
+
+**What if the objects you are tasked to classify are pictures of tumors?**  
+**Determining the malignancy of the tumor is critical for survival.**
+
+### This report will discuss how classification algorithms can automate and accelerate this process of categorization tremendouly. 
+
 # What is Classification?
+
+> **Classification is a supervised machine learning model that identifies the category that an observation belongs to.**
 
 # What are the types of Classification algorithms? 
 
