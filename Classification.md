@@ -37,6 +37,8 @@ This single object is a corn, and it is a trivial task to place this into the ve
 <img width="372" alt="image" src="https://github.com/kaiakamatsu/BENG183-Classification/assets/108591793/1ba6e9d7-7efa-498c-8b6e-48e3c899a626">
 </div>
 This is an impossible task to perform manually. Categorizing fruits and vegetables does not seem like an urgent task.  
+<br>  
+
 >**What if the objects you are asked to classify are pictures of tumors?**  
 >**Determining the malignancy of the tumor is critical for survival.**
 
@@ -62,10 +64,9 @@ The k-Nearest Neighbor (k-NN) method categorizes a new data point based on the k
   
 **STEPS**<br>
 **1.** Prepare the data containing various data points with known classes or labels <br>
-**2.** This is considered the training process<br>
-**3.** Introduce a brand new data point (the unknown vegetable) where you want to assign it to a class based on its characteristics. <br>
-**4.** The k-NN algorithm identifies the k number of neighbors near the new data point based on similarity scores (using metrics such as Euclidean or Manhattan distancing). This is the concept of looking at your neighbors vegetables that are already labeled. <br>
-**5.** These k neighbors will be considered most similar to the data point, where we can classify.<br>
+**2.** Introduce a brand new data point (the unknown vegetable) that you want to categorize based on its characteristics. <br>
+**3.** The k-NN algorithm identifies the **k** neighbors closest to the new data point based on similarity scores (using metrics such as Euclidean or Manhattan distancing).<br>
+**4.** Classify the new data point as the most common label among the k nearest neighbors.<br>
   
 **Note:** It is important to plot the validation curve in order to determine the optimal value for k.<br>
 <br>
@@ -74,8 +75,9 @@ The k-Nearest Neighbor (k-NN) method categorizes a new data point based on the k
 </div>
   
 From:<br>
-[KNN Overview](https://www.ibm.com/topics/knn), [StatsQuest Video](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)
-
+[KNN Overview](https://www.ibm.com/topics/knn), [StatsQuest Video](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)  
+<br>  
+> **See the K-Nearest Neighbors section for more details**
 
 ## Neural networks
 A neural network consists of an input layer, _n_ hidden layers, and an output layer. Each node in the layer have a specific weight and bias attached to them, and all layers are connected. As we train the model, we adjust the weight and bias of nodes, through techniques like gradient descent, so that it results in a more accurate model. 
