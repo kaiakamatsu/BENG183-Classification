@@ -76,7 +76,6 @@ The k-Nearest Neighbor (k-NN) method categorizes a new data point based on the k
   
 From:<br>
 [KNN Overview](https://www.ibm.com/topics/knn), [StatsQuest Video](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)  
-<br/><br/>
 > **See the K-Nearest Neighbors section for more details**
 
 ## Neural networks
