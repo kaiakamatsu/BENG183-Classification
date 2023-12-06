@@ -79,15 +79,15 @@ From:<br>
 > **See the K-Nearest Neighbors section for more details**
 
 ## Neural networks
-A neural network consists of an input layer, _n_ hidden layers, and an output layer. Each node in the layer have a specific weight and bias attached to them, and all layers are connected. As we train the model, we adjust the weight and bias of nodes, through techniques like gradient descent, so that it results in a more accurate model. 
+A neural network consists of an input layer, _n_ hidden layers, and an output layer. Each node in the layer has a specific weight and bias attached to them, and all layers are connected. As we train the model, we adjust the weight and bias of the nodes, through techniques like gradient descent, so that it results in a more accurate model. 
   
 **STEPS**<br>
-**1.** Prepare the data and preprocess. <br>
-**2.** Choose a type of neural network that suits your needs (i.e. convolutional neural network)  
-**3.** Design the architecture of the model. How many layers do we want or type of layer do we want? How many nodes per layer? <br>
-**4.** Define the loss function (i.e. cross-entropy loss ), which measures the performance of a classification model whose output is a probability value between 0 and 1. Set up the Optimizer as well (i.e. Adam) <br>
-**5.** The optimizer will adjust learning rates for each parameter individually, allowing efficient optimization by accommodating both high and low-gradient parameters. This will be the basis for our learning. <br>
-**6.** Feed the training data into the model. Keep an eye on the optimizer in order to minimize loss and update weights to improve accuracy. 
+**1.** Preprocess and prepare the data. <br>
+**2.** Choose a type of neural network that suits your needs. (i.e. convolutional neural network)  
+**3.** Design the architecture of the model. How many layers do we want? What types of layers do we want? How many nodes per layer? <br>
+**4.** Define the loss function (i.e. cross-entropy loss ), which measures the performance of the classification model. Set up the optimizer (i.e. Adam). <br>
+**5.** The optimizer will adjust learning rates for each parameter, gradually improving the performance of the model by minimizing the loss function. This will be the basis for our learning. <br>
+**6.** Feed the training data into the model. <br>
 Have proper measure to prevent overfitting <br>
 [**Example from TensorFlow:**](https://www.tensorflow.org/tutorials/images/cnn)  
 ```
@@ -98,7 +98,7 @@ model.compile(optimizer='adam',
 history = model.fit(train_images, train_labels, epochs=10, 
                     validation_data=(test_images, test_labels))
 ```  
-**7.** Once the  model is ready, introduce new unknown data and runs it through the model<br>  
+**7.** Once the  model is ready, introduce new unknown data and make a prediction<br>  
 **Note:** Use TensorFlow
 
 <div align="center">
