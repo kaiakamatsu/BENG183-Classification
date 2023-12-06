@@ -37,7 +37,7 @@ This single object is a corn, and it is a trivial task to place this into the ve
 <img width="372" alt="image" src="https://github.com/kaiakamatsu/BENG183-Classification/assets/108591793/1ba6e9d7-7efa-498c-8b6e-48e3c899a626">
 </div>
 This is an impossible task to perform manually. Categorizing fruits and vegetables does not seem like an urgent task.  
-<br>  
+<br/><br/>
 
 >**What if the objects you are asked to classify are pictures of tumors?**  
 >**Determining the malignancy of the tumor is critical for survival.**
