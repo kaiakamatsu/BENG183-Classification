@@ -38,8 +38,8 @@ This single object is a corn, and it is a trivial task to place this into the ve
 </div>
 This is an impossible task to perform manually. Categorizing fruits and vegetables does not seem like an urgent task. 
 
-**What if the objects you are tasked to classify are pictures of tumors?**  
-**Determining the malignancy of the tumor is critical for survival.**
+>**What if the objects you are asked to classify are pictures of tumors?**  
+>**Determining the malignancy of the tumor is critical for survival.**
 
 ### This report will discuss how classification algorithms can automate and accelerate this process of categorization tremendouly. 
 
