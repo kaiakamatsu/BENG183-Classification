@@ -29,7 +29,8 @@ Let's explore a simple scenario to motivate the importance of classification in 
 <div align="center">
 <img width="353" alt="image" src="https://github.com/kaiakamatsu/BENG183-Classification/assets/108591793/751e2817-6a48-4c4a-a01a-5061f7dea56b">
 </div>
-> This single object is a corn, and it is a trivial task to place this into the vegetable category.
+
+This single object is a corn, and it is a trivial task to place this into the vegetable category.
 
 > Now consider this task: you are given a task to categorize 1 million objects in this wagon as a fruit or a vegetable.
 <div align="center">
