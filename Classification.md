@@ -111,19 +111,19 @@ From: <br>
 [Convolutional Neural Networks](https://www.analyticsvidhya.com/blog/2021/07/convolution-neural-network-the-base-for-many-deep-learning-algorithms-cnn-illustrated-by-1-d-ecg-signal-physionet/), [Adam](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/#:~:text=In%20summary%2C%20Adam%20optimizer%20is,weights%20during%20deep%20learning%20training), [Cross Entropy Loss](https://www.v7labs.com/blog/cross-entropy-loss-guide#:~:text=Cross%2Dentropy%20loss%2C%20or%20log,diverges%20from%20the%20actual%20label), [Types of Neural Networks](https://www.mygreatlearning.com/blog/types-of-neural-networks/), [TensorFlow Example](https://www.tensorflow.org/tutorials/images/cnn)
 
 ## Support Vector Machines
-Support Vector Machines (SVMs) classify data points by finding the most optimal decision boundary. The main aim of SVM to find a hyperplane that maximizes the distance from different categories. SVMs also do not have to be linear, meaning we can incorporate kernel functions, which rely on the process of mapping datasets to a higher dimensions that makes data point separation easier. Overall, SVMs play an important role in separating data for classification purposes.
+Support Vector Machines (SVMs) classify data points by finding the most optimal decision boundary. The main aim of SVM is to find a hyperplane that maximizes the distance from data points in different categories. Incorporating kernel functions, which map points to a higher dimensions, can make data points more separable. Overall, SVMs play an important role in separating data for classification.
 
 **STEPS**<br>
-**1.** Prepare the data and preprocess <br>
-**2.** Choose a kernel (i.e. linear, polynomial, sigmoid, Gaussian Radial Basis Function, etc). Choose the kernelbased on the type of data being used<br>
+**1.** Preprocess and prepare the data <br>
+**2.** Choose a kernel (i.e. linear, polynomial, sigmoid, Gaussian Radial Basis Function, etc) based on the type of data being used<br>
 **3.** Tune the kernel hyper parameters (i.e. gamma RBF) <br>
 **4.** Set up the SVM model (i.e. Scikit-learn) <br>
-**5.** Train the data using the .fit method 
+**5.** Train the model using the .fit method 
 ```
 svm_cv.fit(X_train,y_train)
 ```
-**6.** Assess the performance using accuracy, recall, etc as flags. Adjust hyper parameters if unsatisfactory <br>
-**7.** Once the  model is ready, introduce new unknown data and runs it through the model<br>
+**6.** Assess the performance using accuracy, recall, etc. Adjust hyper parameters if unsatisfactory <br>
+**7.** Once the model is ready, introduce new unknown data and run it through the model<br>
 
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/fea2349f-704a-4819-b6d8-c5db1ba8e049" width="600"
@@ -132,6 +132,7 @@ svm_cv.fit(X_train,y_train)
   
 From:  
 [SVM Overview](https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/#h-kernels-in-support-vector-machine), [StatsQuest Video](https://www.youtube.com/watch?v=efR1C6CvhmE&ab_channel=StatQuestwithJoshStarmer)
+> **See the SVM section for more details**
 
 # K-Nearest Neighbors Classification 
 
