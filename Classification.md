@@ -88,7 +88,7 @@ A neural network consists of an input layer, _n_ hidden layers, and an output la
 **4.** Define the loss function (i.e. cross-entropy loss ), which measures the performance of the classification model. Set up the optimizer (i.e. Adam). <br>
 **5.** The optimizer will adjust learning rates for each parameter, gradually improving the performance of the model by minimizing the loss function. This will be the basis for our learning. <br>
 **6.** Feed the training data into the model. <br>
-Have proper measure to prevent overfitting <br>
+Have proper measures to prevent overfitting. Simplifying the neural network architecture or incorporating regularization in each node may help prevent overfitting. <br>
 [**Example from TensorFlow:**](https://www.tensorflow.org/tutorials/images/cnn)  
 ```
 model.compile(optimizer='adam',
@@ -99,7 +99,7 @@ history = model.fit(train_images, train_labels, epochs=10,
                     validation_data=(test_images, test_labels))
 ```  
 **7.** Once the  model is ready, introduce new unknown data and make a prediction<br>  
-**Note:** Use TensorFlow
+**Note:** Use TensorFlow for Neural Network implementation
 
 <div align="center">
 <img src="https://github.com/kaiakamatsu/BENG183-Classification/assets/64274901/5aa1041e-064a-4dc7-abf9-517f436ed85b" width="600"
