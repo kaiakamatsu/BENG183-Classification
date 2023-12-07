@@ -12,8 +12,8 @@
   - [Supplements](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#supplements)
 - [Support Vector Machine](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#support-vector-machine)
   - [Intuition/Analogy](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#intuitionanalogy-1)
-  - [Walk-through/Implementation](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#walk-throughimplementation-2)
-  - [Supplements](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#supplements-2)
+  - [Walk-through/Implementation](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#walk-through-and-implementation)
+  - [Supplements](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#supplement)
 - [Biomedical Applications](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#biomedical-applications)
 - [Conclusion](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#conclusion)
 
@@ -214,7 +214,7 @@ These limitations reveal the need for careful consideration and preprocessing of
 ## Intuition/Analogy
 Support Vector Machines aim to classify labeled data into two classes. Imagine you are looking at a soccer field with two groups: players wearing red jerseys and players wearing blue jerseys. The SVM finds a hyperplane that separates these two groups of players based on their jersey color. It finds a hyperplane that maximizes the distance between the closest players to the line. These players would be the support vectors and other players would not play a role in the position and orientation of the hyperplane. SVM also allows for misclassifications which is important for generalization.
 
-## Walk-through/Implementation
+## Walk-through and Implementation
 Support Vector Machines are implemented by creating a hyperplane to separate the labeled data into two groups. Groups are not always linearly separable so we may need to apply a transformation to make separation possible. This transformation is called a kernel, which I discuss further below. Let us now take a look at how to implement an SVM in code. [Code Source](https://www.mltut.com/svm-implementation-in-python-from-scratch/)
 
 ```
@@ -279,12 +279,12 @@ plt.show()
 
 
 
-## Supplements
+## Supplement
 
 ### Kernels
 One of the main kernels that we can use is the rbf kernel, a non-linear kernel. This kernel projects vectors to an infinite dimensional space to help with separability. Other kernels can also be used depending on the data to separate two classes of data. For example, the linear kernel is used when the data is linearly separable. [Source](https://pages.cs.wisc.edu/~matthewb/pages/notes/pdf/svms/RBFKernel.pdf)
 
-## Limitations
+### Limitations
 
 Some limitations include the lack of interpretability (what makes a dataset belong to one class vs another) and difficulty in tuning 
 the hyperparameters C and gamma. The C hyperparameters determine the tradeoff between correct classification and maximizing the margin. The gamma parameter determines the radius around the supper vectors where points in that radius will influence the hyperplane. [Source](https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html)
