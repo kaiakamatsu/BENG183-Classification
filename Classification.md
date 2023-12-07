@@ -137,7 +137,7 @@ From:
 # K-Nearest Neighbors Classification 
 
 ## Intuition/Analogy
-As stated before, the k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for advice. Imagine you're trying to figure out what type of an unknown vegetable is in your basket. You look at the labeled vegetables your neighbors have, compare them, and decide based on the most similar ones.
+The k-Nearest Neighbor (k-NN) method is like asking your closest neighbors for advice. Imagine a scenario in which you have an unknown vegetable and you are trying to figure out what type of vegetable it is. You look at the labeled vegetables that your neighbors have, compare them, and decide based on the most similar ones.
 ## Walk-through/Implementation 
 ### Training  
 The training process of the KNN classification algorithm is fairly straightfoward. The algorithm stores the entire data set to memory while keeping track of distances (for example Euclidean Distance).  
@@ -152,11 +152,10 @@ In python we can calculate these using **numpy** or **scipy**
 <img src="https://www.kdnuggets.com/wp-content/uploads/c_distance_metrics_euclidean_manhattan_minkowski_oh_5.png" width="280" height="80">
 </div>
 
-It is essential to have different colors for labels in order to be able to differentiate.  
 ### Importance of variable "k"
 
-It is important to choose the most optimal k-value as it will be essential for managing outliers/noise in the overall dataset. When k=1, the model makes predictions based solely on the closest neighbor to a data point. This can cause the model to capture noise or outliers, leading to overfitting because it's overly tailored to the training data. However, if the k value is too high, it can lead to oversimplification of the model and the creation of overly generalized boundaries.  
-Although there are various ways to compute the optimal k (i.e. square root k), the most accurate will be the k elbow curve method.
+It is important to choose the most optimal k-value, as it will be essential for managing outliers/noise in the dataset. When k=1, the model makes predictions based solely on the closest neighbor to a data point. This can cause the model to capture noise or outliers, leading to overfitting because it's overly tailored to the training data. However, if the k value is too large, it can lead to oversimplification of the model and the creation of overly generalized boundaries.  
+Although there are various ways to compute the optimal k (i.e. square root of the total # of datapoints ), the most consistent approach will be the k elbow curve method.
 ```
 import pandas as pd
 import numpy as np
@@ -200,7 +199,7 @@ The optimal k value will be 20 as it has the lowest error rate.
 [Image Credits](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning)  
 
 When we introduce a new data point we will calculate the distances from the new data point to the others using the chosen distance metric. 
-Then we can sort the calculated distances in ascending order based on distance values. This way, we can look at the top k rows for the closest k neighbors. Ultimately, we can see which neighbors the new data point is and make a decision on which label it belongs due to the highest vote. 
+Then we can sort the calculated distances in ascending order based on distance values. This way, we can look at the top k rows for the closest k neighbors. Ultimately, we can label the new data point based on the most common label among the k closest neighbors. 
 
 ## Limitations  
 ### Runtime and Storage  
