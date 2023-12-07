@@ -205,19 +205,19 @@ Then we can sort the calculated distances in ascending order based on distance v
 ### Runtime and Storage  
 There are several limitations for the k-nearest neighbor model. The run time growns linearly with the size of the training data, meaning it can be extremely extensive with big data sets. This also means that it will take up a significant amount of memory as we are storing all the points. 
 ### k-NN features
-Some features that could possibly limit the model is the neccesity of the optimal k value. Because this k value looks at all the data points equally when using the elbow method, the lack of weighing means that it is easily influenced by noise compared to other models. 
+One feature that can possibly limit the model is the neccesity of the optimal k value. Sub-optimal k values can result in an overfit or underfit model that is sensitive to noise in the dataset. 
 
-This also means that when running k-nearest neighbor on an unbalanced data set (lets say there is a significant majority), we can have a biased result. This is due to the fact that the majority can dominate the decision of the model, which causes the minority have a higher chance of being misclassified. 
+When running k-nearest neighbor on an unbalanced dataset, the accuracy of the model is likely to be low. This is due to the fact that the majority can dominate the decision of the model, which causes the minority have a higher chance of being misclassified. 
 
-These limitations show the need for consideration and preprocessing of data before applying the k-NN algorithm. Addressing issues related to weighing of data and reduction of noise can improve the model's effectiveness in real-world applications. Additionally, exploring alternative algorithms or methods that can handle large datasets more efficiently might offer solutions to the challenges k-NN faces.
+These limitations reveal the need for careful consideration and preprocessing of data before applying the k-NN algorithm. Addressing these issues by optimizing the k value can improve the model's effectiveness in real-world applications. Additionally, exploring alternative algorithms or methods that can handle large datasets more efficiently might offer solutions to the challenges k-NN faces.
 
 # Support Vector Machine 
 
 ## Intuition/Analogy
-Support Vector Machines aim to classify labeled data into two classes. Imagine you are looking at a soccer field with two groups: players wearing red jerseys and players wearing blue jerseys. The SVM finds a hyperplane that separates these two groups of players based on their jersey color. It finds a hyperplane that maximizes the distance between the closest players to the line. These players would be the support vectors and other players would not play a role in the position and orientation of the hyperplane. SVM also allows for misclassifications which is important for generalizing.
+Support Vector Machines aim to classify labeled data into two classes. Imagine you are looking at a soccer field with two groups: players wearing red jerseys and players wearing blue jerseys. The SVM finds a hyperplane that separates these two groups of players based on their jersey color. It finds a hyperplane that maximizes the distance between the closest players to the line. These players would be the support vectors and other players would not play a role in the position and orientation of the hyperplane. SVM also allows for misclassifications which is important for generalization.
 
 ## Walk-through/Implementation
-Support Vector Machines are implemented by creating a hyperplane to separate the labeled data into two groups. Groups are not always linearly separable so we may need to apply a transformation to make separation possible. This transformation is called a kernel which I discuss further below. Let us know take a look at the code to implement a SVM.
+Support Vector Machines are implemented by creating a hyperplane to separate the labeled data into two groups. Groups are not always linearly separable so we may need to apply a transformation to make separation possible. This transformation is called a kernel, which I discuss further below. Let us now take a look at the code to implement a SVM.
 
 ```
 import numpy as np
