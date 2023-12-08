@@ -8,7 +8,7 @@
 - [What are the types of Classification algorithms?](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#what-are-the-types-of-classification-algorithms)
 - [K-Nearest Neighbors Classification](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#k-nearest-neighbors-classification)
   - [Intuition/Analogy](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#intuitionanalogy)
-  - [Walk-through/Implementation](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#walk-throughimplementation-1)
+  - [Walk-through/Implementation](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#walk-throughimplementation)
   - [Implementation]([https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#supplements](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#limitations))
 - [Support Vector Machine](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#support-vector-machine)
   - [Intuition/Analogy](https://github.com/kaiakamatsu/BENG183-Classification/blob/main/Classification.md#intuitionanalogy-1)
