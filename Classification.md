@@ -278,16 +278,15 @@ plt.show()
 </div>
 
 
-
 ## Supplement
 
 ### Kernels
-One of the main kernels that we can use is the rbf kernel, a non-linear kernel. This kernel projects vectors to an infinite dimensional space to help with separability. Other kernels can also be used depending on the data to separate two classes of data. For example, the linear kernel is used when the data is linearly separable. [Source](https://pages.cs.wisc.edu/~matthewb/pages/notes/pdf/svms/RBFKernel.pdf)
+One of the main kernels that we can use is the rbf kernel, a non-linear kernel. This kernel projects vectors to an infinite dimensional space to help with separability. Other kernels can also be used depending on the data to separate two classes of data. For example, the linear kernel is used when the data is linearly separable. [Kernels](https://pages.cs.wisc.edu/~matthewb/pages/notes/pdf/svms/RBFKernel.pdf)
 
 ### Limitations
 
 Some limitations include the lack of interpretability (what makes a dataset belong to one class vs another) and difficulty in tuning 
-the hyperparameters C and gamma. The C hyperparameters determine the tradeoff between correct classification and maximizing the margin. The gamma parameter determines the radius around the supper vectors where points in that radius will influence the hyperplane. [Source](https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html)
+the hyperparameters C and gamma. The C hyperparameters determine the tradeoff between correct classification and maximizing the margin. The gamma parameter determines the radius around the supper vectors where points in that radius will influence the hyperplane. [Limitations](https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html)
 
 # Biomedical Applications 
 
