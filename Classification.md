@@ -150,6 +150,7 @@ In python we can calculate these using **numpy** or **scipy**
 <img src="https://www.kdnuggets.com/wp-content/uploads/c_distance_metrics_euclidean_manhattan_minkowski_oh_5.png" width="280" height="80">
 </div>
 
+[Near Neighbor Search in High Dimensional Data](https://web.stanford.edu/class/cs345a/slides/04-highdim.pdf)
 ### Importance of variable "k"
 
 It is important to choose the most optimal k-value, as it will be essential for managing outliers/noise in the dataset. When k=1, the model makes predictions based solely on the closest neighbor to a data point. This can cause the model to capture noise or outliers, leading to overfitting because it's overly tailored to the training data. However, if the k value is too large, it can lead to oversimplification of the model and the creation of overly generalized boundaries.  
